@@ -7,8 +7,12 @@ def oxford_comma(array)
   array.join
   
   elsif array.size >= 3
+<<<<<<< HEAD
   array[-1].insert(0, "and ")
   array.join(", ")
+=======
+  array[-2] = ",and"
+>>>>>>> 50b1ac70a3e9693c6802bc531966f1ec276aa829
 
   end 
 end
